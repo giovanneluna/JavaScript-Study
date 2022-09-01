@@ -52,15 +52,14 @@ var element = document.querySelector('div#app')
 element.style.background = 'burlywood'
 element.style.height = '200px'
 element.style.widht = '200px'
-var text = document;querySelector
 
-var app = document.querySelector('div#app')
 
 //Link Href 
+var app = document.querySelector('div#app')
 var link = document.createElement('a')
 var textLink = document.createTextNode('Visitar Curso de JavaScript')
 
 link.setAttribute('href','https://station.cataline.io/basecamp/javascript')
 link.appendChild(textLink)
 
-app.appendChild()
+app.appendChild(link)
